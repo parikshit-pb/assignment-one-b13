@@ -1,0 +1,44 @@
+*{
+
+}
+
+
+nav{
+    max-width: 1600px;
+    text-align: center;
+    border: 2px solid red;
+}
+.nav-bar{
+    display: flex;
+     justify-content: space-between;
+     text-align: center;
+}
+ul{
+    list-style: none;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+}
+nav ul li{
+    
+}
+
+nav ul li a {
+    font-size: 16px;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.nav-btn{
+    font-size: 16px;
+    color: white;
+    font-weight:500;
+    background-color: green;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    
+
+}
