@@ -1,4 +1,10 @@
-*{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
 
 }
 
@@ -12,6 +18,7 @@ nav{
     display: flex;
      justify-content: space-between;
      text-align: center;
+     align-items: center;
 }
 ul{
     list-style: none;
@@ -38,7 +45,75 @@ nav ul li a {
     padding: 10px 16px;
     border: none;
     border-radius: 5px;
-    margin-top: 10px;
+}
+/* hero section */
+.hero{
+    background-image: url(../assets/hero-bg.png);
+    position: relative;
+    text-align: center;
+    justify-content: center;
+}
+.overlay{
+    position: absolute;
+
+
+}
+.badge{
+    font-size: 16px;
+    font-weight: 500;
+    color: green;
+    background-color: white;
+    border-radius: 20px;
+    padding: 10px 15px;
+
+}
+
+.hero-title{
+    font-size: 72px;
+    font-weight: bold;
+    color: white;
+    padding-top: 20px;
+
+}
+.hero-title-color{
+    color: green;
+}
+.hero-des{
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    line-height: 35px;
     
 
+}
+.hero-area{
+    text-align: center;
+    position: relative;
+    padding-top: 100px;
+
+}
+.hero-btn-left{
+    font-size: 16px;
+    font-weight:600;
+    color: white;
+    background-color: green;
+    padding: 15px 18px;
+    border-radius: 5px;
+    border: none;
+}
+.hero-btn-right{
+    font-size: 16px;
+    font-weight:600;
+    color: #FFFFFF;
+    border: 2px solid white;
+    padding: 15px 18px;
+    border-radius: 5px;
+}
+.hero-btn{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 32px;
+    padding-bottom: 179px;
 }
