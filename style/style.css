@@ -184,7 +184,7 @@ nav ul li a {
     height: 60px;
     border-radius: 50%;
     padding: 10px;
-    /* background-color: red; */
+    background-color: red;
     display: block;
     margin: 0 auto;
    
@@ -193,7 +193,7 @@ nav ul li a {
 .second-brain{
     max-width: 1360px;
    margin: 0 auto;
-    /* border: 1px solid red; */
+    border: 1px solid red;
     display: flex;
     justify-content: center;
    
